@@ -54,8 +54,10 @@ public class UserService {
         userRepository.delete(user);
     }
 
-    public List<User> getUsers(){
+    public List<UserDto> getUsers(){
         List<User> users = userRepository.findAll();
-        return users;
+        return users.stream()
+                .map(user -> new UserDto(user.getUsername(),user.getEmail(),user.getPassword())).toList();
+
     }
 }
