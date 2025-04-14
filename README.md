@@ -55,7 +55,7 @@ Cria um novo usuário no sistema.
     "password": "senha123"
   }
 
-
+### Associação de conta
 Associa um usuário a uma conta.
 
 - **URL**: `/users/{userId}/accounts`
@@ -68,7 +68,7 @@ Associa um usuário a uma conta.
   "number": 3
   }
 
-
+### Associação de ação a conta
 Associa uma ação a uma conta.
 
 - **URL**: `/accounts{accountId}/stocks`
@@ -79,3 +79,19 @@ Associa uma ação a uma conta.
 	"stockId":"ITUB4",
 	"quantity":20
 }
+
+
+### Consulta de Ações da Conta
+Retorna as ações de uma conta com seus valores, obtidos via OpenFeign.
+
+- **URL**: `/accounts{accountId}/stocks`
+- **Método**: `GET`
+- **Body**:
+  ```json
+  [
+	{
+		"stockId": "ITUB4",
+		"quantity": 20,
+		"total": 624.2
+	}
+  ]
