@@ -12,9 +12,6 @@ Bem-vindo à documentação da API de Agregador de Investimentos! Esta API permi
   - [Associação de Conta](#associação-de-conta)
   - [Associação de Ação a Conta](#associação-de-ação-a-conta)
   - [Consulta de Ações da Conta](#consulta-de-ações-da-conta)
-- [Exemplo de Uso](#exemplo-de-uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Funcionalidades
 - **Cadastro de Usuário**: Permite criar um novo usuário no sistema.
