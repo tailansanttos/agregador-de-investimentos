@@ -20,17 +20,16 @@ Bem-vindo à documentação da API de Agregador de Investimentos! Esta API permi
 - **Consulta de Ações**: Retorna as ações associadas a uma conta, incluindo seus valores, obtidos via integração com APIs externas.
 
 ## Tecnologias Utilizadas
-- **Java** (ou especifique a linguagem, se diferente)
-- **Spring Boot** (presumido, ajuste se necessário)
+- **Java** 
+- **Spring Boot** 
 - **OpenFeign**: Cliente HTTP para consumir APIs externas de dados financeiros.
-- **Banco de Dados**: [Especifique, ex. MySQL, PostgreSQL, MongoDB, etc.]
-- **Maven** ou **Gradle** (para gerenciamento de dependências)
+- **Banco de Dados**: PostgreSQL
+- **Maven** ou **Gradle**: Maven
 
 ## Pré-requisitos
-- Java 17+ (ou versão específica)
-- Maven/Gradle (especifique a versão, se aplicável)
-- Banco de dados configurado (ex. MySQL com schema criado)
-- Chave de API para serviços externos (se necessário, ex. Alpha Vantage, Yahoo Finance)
+- Java 17+ 
+- Maven
+- Banco de dados configurado (PostgreSQL)
 
 ## Instalação
 1. Clone o repositório:
